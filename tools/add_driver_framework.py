@@ -209,7 +209,7 @@ set(BOARD_DIR "boards")
 def modify_cmake_config(root_dir, chip_name):
     """修改cmake配置JSON文件"""
     # config_path = os.path.join(root_dir, "cmake_configs", f"{chip_name}_Driver_Demo_cmake.json")
-    config_path = os.path.join(root_dir, "cmake_configs", f"TL_PLATFORM_SDK_{chip_name}_cmake.json")
+    config_path = os.path.join(root_dir, "cmake_configs", f"TC_PLATFORM_SDK_{chip_name}_cmake.json")
     if not os.path.exists(config_path):
         print(f"❌ 未找到配置文件: {config_path}")
         return
