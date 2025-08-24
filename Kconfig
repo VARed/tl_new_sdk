@@ -1,0 +1,11 @@
+# Auto-generated SDK root Kconfig
+mainmenu "Telink SDK Configuration"
+
+# Include chip configurations
+source "chip/Kconfig"
+
+# Include demo configurations
+source "demo/Kconfig"
+
+# Include toolchain configurations
+source "tools/Kconfig"

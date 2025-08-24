@@ -1,0 +1,29 @@
+# Auto-generated toolchain configurations
+
+menu "Toolchain Selection"
+
+config TOOLCHAIN_RISCV
+    bool "RISC-V Cross GCC"
+    default y
+    help
+        Use RISC-V cross-compilation toolchain
+
+config TOOLCHAIN_TC32
+    bool "TC32-GCC Toolchain"
+    help
+        Use TC32 compilation toolchain
+
+endmenu
+
+menu "Compilation Optimization Level"
+
+config OPT_LEVEL_0
+    bool "-O0 (No optimization)"
+config OPT_LEVEL_1
+    bool "-O1 (Basic optimization)"
+config OPT_LEVEL_2
+    bool "-O2 (More optimization)"
+    default y
+config OPT_LEVEL_3
+    bool "-O3 (Maximum optimization)"
+endmenu

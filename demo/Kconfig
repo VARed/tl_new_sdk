@@ -1,0 +1,310 @@
+# Auto-generated demo program configurations
+
+menu "Demo Program Selection"
+
+config DEMO_ADC_DEMO
+    bool "ADC_Demo"
+    help
+        Enable ADC_Demo sample program
+
+config DEMO_AES_DEMO
+    bool "AES_Demo"
+    help
+        Enable AES_Demo sample program
+
+config DEMO_ALG_REG_DEMO
+    bool "ALG_REG_Demo"
+    help
+        Enable ALG_REG_Demo sample program
+
+config DEMO_AUDIO_DEMO
+    bool "AUDIO_Demo"
+    help
+        Enable AUDIO_Demo sample program
+
+config DEMO_AUDIO_DEMO
+    bool "Audio_Demo"
+    help
+        Enable Audio_Demo sample program
+
+config DEMO_BQB_EMI_DEMO
+    bool "BQB_EMI_Demo"
+    help
+        Enable BQB_EMI_Demo sample program
+
+config DEMO_CAN_DEMO
+    bool "CAN_Demo"
+    help
+        Enable CAN_Demo sample program
+
+config DEMO_CHACHA20_POLY1305_DEMO
+    bool "CHACHA20_POLY1305_Demo"
+    help
+        Enable CHACHA20_POLY1305_Demo sample program
+
+config DEMO_COREMARK
+    bool "COREMARK"
+    help
+        Enable COREMARK sample program
+
+config DEMO_CAMERA_DEMO
+    bool "Camera_Demo"
+    help
+        Enable Camera_Demo sample program
+
+config DEMO_CODEC_DEMO
+    bool "Codec_Demo"
+    help
+        Enable Codec_Demo sample program
+
+config DEMO_COREMARK_DEMO
+    bool "Coremark_Demo"
+    help
+        Enable Coremark_Demo sample program
+
+config DEMO_D25F_COREMARK
+    bool "D25F_COREMARK"
+    help
+        Enable D25F_COREMARK sample program
+
+config DEMO_D25F_DHRYSTONE
+    bool "D25F_DHRYSTONE"
+    help
+        Enable D25F_DHRYSTONE sample program
+
+config DEMO_D25F_RF_DEMO
+    bool "D25F_RF_Demo"
+    help
+        Enable D25F_RF_Demo sample program
+
+config DEMO_DHRYSTONE
+    bool "DHRYSTONE"
+    help
+        Enable DHRYSTONE sample program
+
+config DEMO_DUT_DEMO
+    bool "DUT_Demo"
+    help
+        Enable DUT_Demo sample program
+
+config DEMO_DEBUG_DEMO
+    bool "Debug_Demo"
+    help
+        Enable Debug_Demo sample program
+
+config DEMO_DHRYSTONE_DEMO
+    bool "Dhrystone_Demo"
+    help
+        Enable Dhrystone_Demo sample program
+
+config DEMO_DISPLAY_DEMO
+    bool "Display_Demo"
+    help
+        Enable Display_Demo sample program
+
+config DEMO_EMI_BQB_DEMO
+    bool "EMI_BQB_Demo"
+    help
+        Enable EMI_BQB_Demo sample program
+
+config DEMO_FLASH_DEMO
+    bool "FLASH_Demo"
+    help
+        Enable FLASH_Demo sample program
+
+config DEMO_FLASH_DEMO
+    bool "Flash_Demo"
+    help
+        Enable Flash_Demo sample program
+
+config DEMO_FREERTOS_DEMO
+    bool "Freertos_Demo"
+    help
+        Enable Freertos_Demo sample program
+
+config DEMO_GPIO_DEMO
+    bool "GPIO_Demo"
+    help
+        Enable GPIO_Demo sample program
+
+config DEMO_HASH_DEMO
+    bool "HASH_Demo"
+    help
+        Enable HASH_Demo sample program
+
+config DEMO_I2C_DEMO
+    bool "I2C_Demo"
+    help
+        Enable I2C_Demo sample program
+
+config DEMO_IR_LEARN_DEMO
+    bool "IR_LEARN_Demo"
+    help
+        Enable IR_LEARN_Demo sample program
+
+config DEMO_KEYSCAN_DEMO
+    bool "Keyscan_Demo"
+    help
+        Enable Keyscan_Demo sample program
+
+config DEMO_LPC_DEMO
+    bool "LPC_Demo"
+    help
+        Enable LPC_Demo sample program
+
+config DEMO_MDEC_DEMO
+    bool "MDEC_Demo"
+    help
+        Enable MDEC_Demo sample program
+
+config DEMO_MULTI_CORE_DEMO
+    bool "MULTI_CORE_Demo"
+    help
+        Enable MULTI_CORE_Demo sample program
+
+config DEMO_N22_COREMARK
+    bool "N22_COREMARK"
+    help
+        Enable N22_COREMARK sample program
+
+config DEMO_N22_DHRYSTONE
+    bool "N22_DHRYSTONE"
+    help
+        Enable N22_DHRYSTONE sample program
+
+config DEMO_N22_RF_DEMO
+    bool "N22_RF_Demo"
+    help
+        Enable N22_RF_Demo sample program
+
+config DEMO_N22_STIMER_DEMO
+    bool "N22_STIMER_Demo"
+    help
+        Enable N22_STIMER_Demo sample program
+
+config DEMO_N22_STIMER_DEMO
+    bool "N22_STimer_Demo"
+    help
+        Enable N22_STimer_Demo sample program
+
+config DEMO_N22_TRAP_DEMO
+    bool "N22_TRAP_Demo"
+    help
+        Enable N22_TRAP_Demo sample program
+
+config DEMO_N22_TEST_DEMO_BOOLOADER_BY_DMA
+    bool "N22_Test_Demo_Booloader_By_DMA"
+    help
+        Enable N22_Test_Demo_Booloader_By_DMA sample program
+
+config DEMO_N22_TEST_DEMO_BOOLOADER_BY_N22_MCU
+    bool "N22_Test_Demo_Booloader_By_N22_MCU"
+    help
+        Enable N22_Test_Demo_Booloader_By_N22_MCU sample program
+
+config DEMO_N22_TIMER_BB_DEMO
+    bool "N22_Timer_BB_Demo"
+    help
+        Enable N22_Timer_BB_Demo sample program
+
+config DEMO_OTP_DEMO
+    bool "OTP_Demo"
+    help
+        Enable OTP_Demo sample program
+
+config DEMO_PKE_DEMO
+    bool "PKE_Demo"
+    help
+        Enable PKE_Demo sample program
+
+config DEMO_PM_DEMO
+    bool "PM_Demo"
+    help
+        Enable PM_Demo sample program
+
+config DEMO_PWM_DEMO
+    bool "PWM_Demo"
+    help
+        Enable PWM_Demo sample program
+
+config DEMO_QDEC_DEMO
+    bool "QDEC_Demo"
+    help
+        Enable QDEC_Demo sample program
+
+config DEMO_RF_AOA_DEMO
+    bool "RF_AOA_Demo"
+    help
+        Enable RF_AOA_Demo sample program
+
+config DEMO_RF_DEMO
+    bool "RF_Demo"
+    help
+        Enable RF_Demo sample program
+
+config DEMO_SD_ADC_DEMO
+    bool "SD_ADC_Demo"
+    help
+        Enable SD_ADC_Demo sample program
+
+config DEMO_SKE_DEMO
+    bool "SKE_Demo"
+    help
+        Enable SKE_Demo sample program
+
+config DEMO_SPI_DEMO
+    bool "SPI_Demo"
+    help
+        Enable SPI_Demo sample program
+
+config DEMO_STIMER_DEMO
+    bool "STIMER_Demo"
+    help
+        Enable STIMER_Demo sample program
+
+config DEMO_SECURE_BOOT_DEMO
+    bool "Secure_Boot_Demo"
+    help
+        Enable Secure_Boot_Demo sample program
+
+config DEMO_SENSOR_LCD_DEMO
+    bool "Sensor_Lcd_Demo"
+    help
+        Enable Sensor_Lcd_Demo sample program
+
+config DEMO_TIMER_DEMO
+    bool "TIMER_Demo"
+    help
+        Enable TIMER_Demo sample program
+
+config DEMO_TRAP_DEMO
+    bool "TRAP_Demo"
+    help
+        Enable TRAP_Demo sample program
+
+config DEMO_TRNG_DEMO
+    bool "TRNG_Demo"
+    help
+        Enable TRNG_Demo sample program
+
+config DEMO_TIMER_DEMO
+    bool "Timer_Demo"
+    help
+        Enable Timer_Demo sample program
+
+config DEMO_UART_DEMO
+    bool "UART_Demo"
+    help
+        Enable UART_Demo sample program
+
+config DEMO_USB_DEMO
+    bool "USB_Demo"
+    help
+        Enable USB_Demo sample program
+
+config DEMO_S7816_DEMO
+    bool "s7816_Demo"
+    help
+        Enable s7816_Demo sample program
+
+endmenu

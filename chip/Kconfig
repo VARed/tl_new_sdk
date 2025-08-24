@@ -1,0 +1,41 @@
+# Auto-generated chip configurations
+
+menu "Chip Selection"
+
+config CHIP_TC_TC321X
+    bool "TC_TC321X"
+    default y
+    help
+        Select TC_TC321X as the target platform
+
+config CHIP_TL_B91
+    bool "TL_B91"
+    help
+        Select TL_B91 as the target platform
+
+config CHIP_TL_B92
+    bool "TL_B92"
+    help
+        Select TL_B92 as the target platform
+
+config CHIP_TL_TL321X
+    bool "TL_TL321X"
+    help
+        Select TL_TL321X as the target platform
+
+config CHIP_TL_TL322X
+    bool "TL_TL322X"
+    help
+        Select TL_TL322X as the target platform
+
+config CHIP_TL_TL721X
+    bool "TL_TL721X"
+    help
+        Select TL_TL721X as the target platform
+
+config CHIP_TL_TL751X
+    bool "TL_TL751X"
+    help
+        Select TL_TL751X as the target platform
+
+endmenu
