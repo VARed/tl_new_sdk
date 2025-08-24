@@ -1,0 +1,10 @@
+# Multi-chip toolchain configuration
+if(CHIP_TC321X)
+    include(${CMAKE_SOURCE_DIR}/cmake/toolchain_tc321x.cmake)
+elseif(CHIP_TL321X)
+    include(${CMAKE_SOURCE_DIR}/cmake/toolchain_tl321x.cmake)
+elseif(CHIP_B92)
+    include(${CMAKE_SOURCE_DIR}/cmake/toolchain_b92.cmake)
+else()
+    message(FATAL_ERROR "No chip selected! Please enable one of the CHIP_* options.")
+endif()
